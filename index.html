@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Build a Survery Form - FCC</title>
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+ <h1 id="title">Survey Form About Learning Form</h1>
+  <main id="main">
+<p id="description">
+    Let us know how well do you know about form?
+</p>
+    <form id="survey-form" method="GET" action="#">
+ <div class="lineType">
+      <div class="form_labels">
+        <label id="name-label" for="firstname">* First Name</label>
+      </div>
+      <div class="rightSide">
+        <input autofocus type="text" name="name" id="name" class="input-box" placeholder="Enter First Name" required>
+      </div>
+    <div class="form_labels">
+        <label id="name-label" for="surname">* Surname</label>
+      </div>
+      <div class="rightSide">
+        <input autofocus type="text" name="name" id="name" class="input-box" placeholder="Enter Your Surname" required>
+      </div>
+    </div>
+      <div class="lineType">
+      <div class="form_labels">
+        <label id="email-label" for="email">* Email</label>
+      </div>
+      <div class="rightSide">
+        <input type="email" name="email" id="email" class="input-box" required placeholder="Enter Your Email Address">
+      </div>
+      </div>
+      <div class="lineType">
+      <div class="form_labels">
+        <label id="number-label" for="mobile">* Mobile</label>
+      </div>
+      <div class="rightSide">
+        <input type="number" name="mobile" id="number" min="0" max="999999999" class="input-box" placeholder="Your Mobile Phone Number">
+      </div>
+    </div>
+<div class="lineType">
+      <div class="form_labels">
+        <label for="nowPosts">How well do you know about form?</label>
+      </div>
+      <div class="rightSide">
+        <select id="dropdown" name="nowPosts" class="dropdown">
+      <option value>Select an Option</option>
+      <option value="a-little">A little Bit</option>
+      <option value="entry-level">Entry level</option>
+      <option value="inter-lever">Intermediate Level</option>
+      <option value="senior-level">Senior level</option>
+      <option value="other">Other</option>
+    </select>
+      </div>
+    </div>    
+ <div class="lineType">
+      <div class="form_labels">
+        <label for="userValues">* Do you want to know or not?</label>
+      </div>
+      <div class="rightSide">
+        <ul style="list-style: none;">
+          <li class="radio"><label>Yes, I will<input name="radio-buttons" value="1"  type="radio" class="userValues" ></label></li>
+          <li class="radio"><label>No, I am not<input name="radio-buttons" value="2"  type="radio" class="userValues" ></label></li>
+          <li class="radio"><label>Not sure<input name="radio-buttons" value="3"  type="radio" class="userValues" ></label></li>
+        </ul>
+      </div>
+    </div>
+<div class="lineType">
+      <div class="form_labels">
+        <label for="myfavorite">The most useful form categories</label>
+      </div>
+      <div class="rightSide">
+        <ul id="myfavorite" style="list-style: none;">
+          <li class="checkbox"><label><input name="favorite" value="1" type="checkbox" class="userValues">Input</label></li>
+          <li class="checkbox"><input name="favorite" value="2" type="checkbox" class="userValues">Select</li>
+          <li class="checkbox"><label><input name="favorite" value="3" type="checkbox" class="userValues">Textarea</label></li>
+          <li class="checkbox"><label><input name="favorite" value="4" type="checkbox" class="userValues">Button</label></li>
+          <li class="checkbox"><label><input name="favorite" value="5" type="checkbox" class="userValues">Label</label></li>
+          <li class="checkbox"><label><input name="favorite" value="6" type="checkbox" class="userValues">Option</label></li>
+          <li class="checkbox"><label><input name="favorite" value="7" type="checkbox" class="userValues">Datalist</label></li>
+          <li class="checkbox"><label><input name="favorite" value="8" type="checkbox" class="userValues">Output</label></li>
+          <li class="checkbox"><label><input name="favorite" value="9" type="checkbox" class="userValues">Fieldset</label></li>
+          <li class="checkbox"><label><input name="favorite" value="10" type="checkbox" class="userValues">Form</label></li>
+          <li class="checkbox"><label><input name="favorite" value="10" type="checkbox" class="userValues">Legend</label></li>
+        </ul>
+      </div>
+    </div>
+<div class="lineType">
+      <div class="form_labels">
+        <label for="addvalues">Add more values from you, Thank you!</label>
+      </div>
+      <div class="rightSide">
+        <textarea id="morevalues" class="input-box" name="addvalues" placeholder="Add your values here..." style="height:66px; resize:vertical;"  ></textarea>
+      </div>
+    </div>
+    <button id="submit" type="submit">Submit</button>
+  </form>      
+      
+  <div class="copyright"><strong>Ye Yuan</strong> - Free Code Camp Project: Build a Survey Form</div>
+</div>
+</main>
+
+</body>
+</html>
