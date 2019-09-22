@@ -1,0 +1,116 @@
+@charset "UTF-8";
+html {
+  font-size: 15px;
+}
+body {
+  font-size: 15px;
+  line-height: 1.1;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+h1{
+  font-size: 35px;
+}
+#description {
+  font-size: 25px;
+}
+#main {
+  margin: 0 auto;
+  padding: 15px;
+  background: 	#00BFFF;
+  border-radius: 6px;
+  max-width: 920px;
+}
+@media screen and (max-width: 800px) {
+  .input-field {
+    width: 76%;
+  }
+  select {
+    width: 88%;
+  }
+}
+
+@media screen and (max-width: 503px) {
+  .form_labels {
+    width: 100%;
+    text-align: left;
+  }
+  .rightSide {
+    float: left;
+    width: 78%;
+  }
+  .input-box{
+    width: 96%;
+  }
+  select {
+    width: 96%;
+  }
+}
+.form_labels {
+  display: inline-block;
+  text-align: right;
+  width: 38%;
+  padding: 5px;
+  vertical-align: top;
+  margin-top: 9px;
+}
+.rightSide {
+  width: 50%;
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+.input-box {
+  margin: 6px;
+  height: 21px;
+  width: 300px;
+  padding: 5px;
+  border: 1px solid;
+  border-radius: 5px;
+}
+.dropdown {
+  height: 30px;
+  width: 180px;
+  margin: 10px;  
+  margin-top: 9px;
+  border: 1px solid;
+  border-radius: 10px;  
+  padding: 6px;
+}
+.userValues {
+  float: left;
+  margin-right: 20px;
+}
+input[type="checkbox"] {
+  float: left;
+  margin-right: 20px;
+}
+.radio,.checkbox {
+  position: relative;
+  display: block;
+  margin-top: 
+  margin-left: 16px;
+  padding-bottom: 10px;
+}
+#submit {
+  color: white;
+  border-radius: 10px;
+  height: 40px;
+  width: 96px;
+  font-size: 20px;
+  border: 3px solid;
+  margin-left: 200px;
+  background-color: #000080;
+}
+.copyright {
+  margin-top: 25px;
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	background-color: #000080;
+  font-size: 22px;
+  color: #FFFFFF;
+  letter-spacing: 1.2px;
+  border-radius: 5px;
+}
